@@ -1,6 +1,6 @@
 # COSC310 Ryder Van Oerle Chatbot
 ## Project Description
-The purpose of this project is to create a customer service chat bot agent which will communicate with basic canned sentences. The chat bot will offer the opportunity for users to leave reviews or return specific products from its online store. This conversation between the user and chat bot is “smooth,” and provides the user with a realistic customer service conversation which can undergo 30 or more turns of dialogue. 
+The purpose of this project is to create a customer service chat bot agent which will communicate with basic canned sentences. The chat bot will offer the opportunity for users to leave reviews or return specific products from its online store. This conversation between the user and chat bot is “smooth,” and provides the user with a realistic customer service conversation which can undergo 30 or more turns of dialogue. I have also implemented the Google Places and Geocoding API to display 5 electronic stores near the users address.
 
 To develop this software, our team decided to work with the Agile Scrum SDLC. The rationale behind choosing Scrum is because we wanted to follow a model that allows the flexibility to monitor the software development as the project is being developed throughout the term. Utilizing Scrum will allow the team to provide feedback throughout any stage of the project and iterate accordingly.
 
