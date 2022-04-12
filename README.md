@@ -49,7 +49,7 @@ Then, run app.py to start the chat bot:
 ![image](https://user-images.githubusercontent.com/61817636/158088234-0a9e4185-52a1-454f-b4da-4a337ee09f65.png)
 
 ### Example (A4)
-https://user-images.githubusercontent.com/75710067/162855888-f5eed1d3-d5ea-467f-804a-f93c0fa8e591.PNG
+![image](https://user-images.githubusercontent.com/75710067/162855888-f5eed1d3-d5ea-467f-804a-f93c0fa8e591.png)
 
 ### Demo (A4)
 https://user-images.githubusercontent.com/61817636/158919569-a8d33336-8998-41bd-b51b-806c0296ac02.mp4
