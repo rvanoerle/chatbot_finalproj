@@ -6,12 +6,12 @@ To develop this software, our team decided to work with the Agile Scrum SDLC. Th
 
 ## Installation and Running the Chat Bot
 Either download this repository or clone it to your desired directory with 
-```git clone https://github.com/mvallido/cosc310_team1_chatbot``` 
+```git clone https://github.com/rvanoerle/chatbot_finalproj``` 
 in the command line
 
 ### Create Virtual Environment (A3)
 ```
-cd charbot_team1_chatbot
+cd chatbot_team1_chatbot
 python -m env chat_env
 ```
 ### Activate Virtual Environment (A3)
@@ -47,6 +47,9 @@ Then, run app.py to start the chat bot:
 
 ## Conversation Flow (A3)
 ![image](https://user-images.githubusercontent.com/61817636/158088234-0a9e4185-52a1-454f-b4da-4a337ee09f65.png)
+
+### Example (A4)
+![image]https://user-images.githubusercontent.com/75710067/162855888-f5eed1d3-d5ea-467f-804a-f93c0fa8e591.PNG
 
 ### Demo (A4)
 https://user-images.githubusercontent.com/61817636/158919569-a8d33336-8998-41bd-b51b-806c0296ac02.mp4
