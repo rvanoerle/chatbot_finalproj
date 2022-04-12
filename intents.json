@@ -2,23 +2,9 @@
 {
     "intents": [
       {
-        "tag": "greeting",
-        "patterns": [
-          "Hi",
-          "Hey",
-          "How are you",
-          "Is anyone there?",
-          "Hello",
-          "Good day"
-        ],
-        "responses": [
-          "Hello, would you like to discuss a product or a service?",
-          "Hi there, would you like to discuss a product or a service?"
-        ]
-      },
-      {
         "tag": "product_initial",
         "patterns": [
+          "product",
           "Discuss a product please",
           "I'd like to discuss a Product",
           "I would like to discuss a product",
@@ -33,6 +19,7 @@
       {
         "tag": "product_review",
         "patterns": [
+          "review",
           "I would like to leave a Product review please",
           "Product review",
           "Can I leave a product review",

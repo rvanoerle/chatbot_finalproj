@@ -18,11 +18,15 @@ python -m env chat_env
 ```
 chat_env\Scripts\activate
 ```
-![image](https://user-images.githubusercontent.com/61817636/158919972-9e390d45-5a4e-44e0-af77-280f602a2482.png)
+![image](https://user-imag
+es.githubusercontent.com/61817636/158919972-9e390d45-5a4e-44e0-af77-280f602a2482.png)
 
-### Install PyTorch and NLTK (A3)
+### Install PyTorch NLTK and GoogleMaps (A4)
 For PyTorch Installation, follow this [link](https://pytorch.org/get-started/locally/)
 ![image](https://user-images.githubusercontent.com/61817636/158920135-d7c2b190-74a5-49c8-a346-c43ca8e1eae4.png)
+
+For NLTK, run the following commands in your CLI:
+```pip install googlemaps ``
 
 For NLTK, run the following commands in your CLI:
 ```pip install nltk```
@@ -59,26 +63,18 @@ https://user-images.githubusercontent.com/61817636/158919569-a8d33336-8998-41bd-
           ]
       }
 ```
-### Opening Conversation
+### Opening and API Conversation
 ```
-"tag": "greeting",
-"patterns": [
-          "Hi",
-          "Hey",
-          "How are you",
-          "Is anyone there?",
-          "Hello",
-          "Good day"
-        ],
-        "responses": [
-          "Hello, would you like to discuss a product or a service?",
-          "Hi there, would you like to discuss a product or a service?"
-        ]
-```
+"Hello, please enter your address to view nearby stores to purchase one of our products."
+ Customer inputted address
+ Display list of stores
+ "Would you like to discuss a product or a service?"
+
 ### Product Conversation
 ```
 "tag": "product_initial",
 "patterns": [
+          "product"
           "Discuss a product please",
           "I'd like to discuss a Product",
           "I would like to discuss a product",
@@ -94,6 +90,7 @@ https://user-images.githubusercontent.com/61817636/158919569-a8d33336-8998-41bd-
 ```
 "tag": "product_review",
 "patterns": [
+          "review"
           "I would like to leave a Product review please",
           "Product review",
           "Can I leave a product review",
@@ -191,20 +188,18 @@ https://user-images.githubusercontent.com/61817636/158919569-a8d33336-8998-41bd-
         ]
       }
 ```
-## New Features (A3)
-- GUI:
-  * Implemented a GUI with Tkinter for better user experience 
-- PyTorch and NLTK:
-  * We implemented this toolkits to improve spelling mistakes and enable the chatbot to have more than one common response to similar user inputs
-- Extra Topic:
-  * In addition to the product review, we now offer services and the ability to review them as well 
+## New Features (A4)
+- Google Geocoding API:
+  * This was implemented so that for when a user enters there general address, we are able to use the API to get and return the relative coordinates.
+- Google Places API:
+  * This was implemented to produce a list of 5 close electronic stores that the user may purchase an item at. Because this API requires coordinates, they are taken from the Geocoding API.
  
 ### Sample output with user typos
 ![image](https://user-images.githubusercontent.com/61817636/158089817-452c73b5-2784-42f7-bb00-f37168f8d502.png)
 
-## References (A3)
-To implement the GUI, PyTorch, NLTK, and creating the unit test, the following resources were used:
-- [Contextual Chatbots with Tensorflow - Article](https://chatbotsmagazine.com/contextual-chat-bots-with-tensorflow-4391749d0077?gi=f7d03c3a78c3)
-- [Chat bot with PyTorch, NLP, and Deep Learning - YouTube](https://www.youtube.com/watch?v=RpWeNzfSUHw&list=PLqnslRFeH2UrFW4AUgn-eY37qOAWQpJyg&ab_channel=PythonEngineer)
-- [GUI with Tkinter - YouTube](https://www.youtube.com/watch?v=RNEcewpVZUQ)
-- [Testing in Python - Article from Real Python](https://realpython.com/python-testing)
+## References (A4)
+To implement the Google API's, the following resources were used:
+- [Places API - Google Developers Documenation](https://developers.google.com/maps/documentation/places/web-service)
+- [How to Use Google Places API In Python - YouTube](https://www.youtube.com/watch?v=qkSmuquMueA)
+- [Geocoding API - Google Developers Documentation](https://developers.google.com/maps/documentation/geocoding)
+- [Getting Started with Google Geocoding API - YouTube](https://www.youtube.com/watch?v=d1QGLwie9YU)
