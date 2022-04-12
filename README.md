@@ -26,7 +26,7 @@ For PyTorch Installation, follow this [link](https://pytorch.org/get-started/loc
 ![image](https://user-images.githubusercontent.com/61817636/158920135-d7c2b190-74a5-49c8-a346-c43ca8e1eae4.png)
 
 For NLTK, run the following commands in your CLI:
-```pip install googlemaps ``
+```pip install googlemaps ```
 
 For NLTK, run the following commands in your CLI:
 ```pip install nltk```
@@ -48,7 +48,7 @@ Then, run app.py to start the chat bot:
 ## Conversation Flow (A3)
 ![image](https://user-images.githubusercontent.com/61817636/158088234-0a9e4185-52a1-454f-b4da-4a337ee09f65.png)
 
-### Demo (A3)
+### Demo (A4)
 https://user-images.githubusercontent.com/61817636/158919569-a8d33336-8998-41bd-b51b-806c0296ac02.mp4
 
 ## Coversation Structure
@@ -190,7 +190,7 @@ https://user-images.githubusercontent.com/61817636/158919569-a8d33336-8998-41bd-
 ```
 ## New Features (A4)
 - Google Geocoding API:
-  * This was implemented so that for when a user enters there general address, we are able to use the API to get and return the relative coordinates.
+  * This was implemented for when a user enters there general address, we are able to use the API to get and return the relative coordinates.
 - Google Places API:
   * This was implemented to produce a list of 5 close electronic stores that the user may purchase an item at. Because this API requires coordinates, they are taken from the Geocoding API.
  
